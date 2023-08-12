@@ -12,9 +12,13 @@ for read more aboute __Crontab__ you can read this <a href="https://linuxhint.co
   
   <a href="https://docs.python.org/3/library/smtplib.html">Smtplib</a> library
   
-  <a href="https://github.com/kavenegar/kavenegar-python">kavenegar</a> library
+  <a href="https://github.com/kavenegar/kavenegar-python">Kavenegar</a> library
   
-  <a href="https://pypi.org/project/Khayyam/">datetime</a> library
+  <a href="https://pypi.org/project/Khayyam/">Datetime</a> library
+
+  <a href="https://docs.python.org/3/library/json.html">Json</a> library
+
+  <a href="https://docs.python.org/3/library/email.html">email</a> library
 
 By clicking on any library, you can read that's tutoria
 
