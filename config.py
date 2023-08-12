@@ -3,7 +3,7 @@ API_KEY = '1efae8c05a77a3bafc8754fbd12e43f2'
 
 url = BASE_PATH + API_KEY
 
-EMAIL_RECEIVER = "hosein@inprobes.com"
+EMAIL_RECEIVER = "jahantab83@gmail.com"
 
 # rules = {
 #     'archive': True,
