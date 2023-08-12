@@ -12,8 +12,8 @@ def send_api_email(subject, body):
         "https://api.mailgun.net/v3/inprobes/messages",
         auth=("api", MAILGUN_APIKEY),
         data={
-            "from": "Hosein finance@inprobes.com",
-            "to": ["hs.ramezanpoor@gmail.com", "hosein@inprobes.com"],
+            "from": "amir jahantab83@gmail.com",
+            "to": ["hs.jahantab8833@gmail.com", "jahantab83@gmail.com"],
             "subject": subject,
             "text": body
         }
@@ -23,7 +23,7 @@ def send_api_email(subject, body):
 def send_smtp_email(subject, body):
     msg = MIMEText(body)
     msg['Subject'] = subject
-    msg['From'] = "finance@inprobes.com"
+    msg['From'] = "jahantab83@gmail.com"
     msg['To'] = rules['email']['receiver']
 
     with smtplib.SMTP('smtp.mailgun.org', 587) as mail_server:
